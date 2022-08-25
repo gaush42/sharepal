@@ -1,0 +1,55 @@
+.cardContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 50px;
+}
+.heading{
+    font-size: 36px;
+    font-weight: bold;
+    height: 40px;
+    width: calc(100%-0);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.Card{
+    display: flex;
+    position: relative;
+    height: 185px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.3) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+.Card img{
+    height: 185px;
+    width: 300px;
+}
+.title{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.noOfItem{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 8px;
+    left: 16px;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 75px 75px;
+}
+.noOfItem:hover{
+    background-color: rgb(9, 39, 235);
+    color: white;
+}
+.noOfItem span{
+    margin-left: 15px;
+}

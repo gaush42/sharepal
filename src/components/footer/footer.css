@@ -1,0 +1,49 @@
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 23, 71);
+    color: white;
+    width: calc(100% - 0);
+    height: 120px;
+    margin-top: 50px;
+    gap: 50px;
+}
+.text-1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.offerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 40px;
+    width: 185px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.offerText p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.offerBtn{
+    display: flex;
+    background-color: rgb(215, 223, 35);
+    height: 40px;
+    width: 200px;
+    border: 1px none rgb(127, 149, 235);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: normal;
+    box-shadow: none;
+}
+.offerBtn:hover{
+    background-color: white;
+}

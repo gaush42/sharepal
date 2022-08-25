@@ -1,0 +1,10 @@
+.StickyContainer{
+    position: fixed;
+    top: 80%;
+    left: 95%;
+    cursor: pointer;
+}
+.StickyContainer img{
+    height: 60px;
+    width: 60px;
+}
